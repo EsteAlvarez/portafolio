@@ -16,3 +16,21 @@ var typed = new Typed("#typed_element", {
   showCursor: true,
   cursorChar: "|",
 });
+
+const copyText = document.getElementById("contact_mail").innerHTML;
+const copyButton = document.getElementById("copy_button");
+const copyMessage = document.getElementById("copy_message");
+
+copyButton.addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(copyText);
+    copyMessage.innerText = "Email copiado correctamente.";
+    setTimeout(() => {
+      copyMessage.innerText = "";
+    }, 2500);
+
+    //console.log("Contenido copiado al portapapeles");
+  } catch (err) {
+    console.error("Error al copiar: ", err);
+  }
+});

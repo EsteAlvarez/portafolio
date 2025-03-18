@@ -314,12 +314,24 @@ ul,
 .footer {
   width: 40%;
   text-align: center;
-  border-top: 1px solid var(--neutral-50);
+  /* border-top: 1px solid var(--neutral-50); */
   margin: 2em auto;
 }
 
 .footer__info-container {
   margin-top: 1em;
+}
+
+.copy-button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+.copy-message {
+  font-size: 87.5%;
+  color: var(--primary-red);
 }
 
 /* 3. Responsive Styles
