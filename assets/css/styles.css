@@ -183,7 +183,7 @@ ul,
   padding-top: 1.5em;
 }
 
-.portfolio-nav__link {
+/* .portfolio-nav__link {
   text-decoration: none;
   color: var(--neutral-50);
   transition: 0.5s;
@@ -191,7 +191,7 @@ ul,
 
 .portfolio-nav__link:hover {
   color: var(--primary-red);
-}
+} */
 
 .profile-image-header-container {
   display: none;
@@ -389,6 +389,10 @@ ul,
 
   .section-margins {
     margin: 2em 0;
+  }
+
+  .wellcome-section__presentation-subtitle {
+    font-size: 165%;
   }
 
   .skills-container {
