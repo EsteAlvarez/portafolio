@@ -54,7 +54,7 @@ html {
   ); */
   background-color: #131313;
   opacity: 1;
-  background-image: radial-gradient(#888888 0.65px, #131313 0.65px);
+  background-image: radial-gradient(#5d5d5d 0.5px, #131313 0.5px);
   background-size: 13px 13px;
 }
 
