@@ -22,7 +22,7 @@ if ($loop->have_posts()) {
                         class="global-icon-link global-project-icon-link"
                         href="<?php echo esc_attr(get_field('link_a_demo_del_proyecto')); ?>"
                         target="_blank"
-                        aria-label="Enlace a proyecto"><i class="bi bi-arrow-down-left-circle projects-section-container__info-header__icon-link"></i></a>
+                        aria-label="Enlace a proyecto"><i class="bi bi-arrow-up-right"></i></a>
                     <a
                         class="global-icon-link global-project-icon-link"
                         href="<?php echo esc_attr(get_field('link_al_codigo_del_proyecto')); ?>"

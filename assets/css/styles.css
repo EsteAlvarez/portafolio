@@ -88,20 +88,22 @@ span {
 }
 
 .global-icon-link {
-  display: inline-flex;
+  border: 1px solid var(--text-color-portfolio);
+  color: var(--text-color-portfolio);
+  border-radius: 50%;
+  width: 35px;
+  aspect-ratio: 1 / 1;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.1rem;
-  aspect-ratio: 1 / 1;
-  border: 1px solid var(--text-color-portfolio);
-  border-radius: 50%;
-  color: var(--text-color-portfolio);
-  text-decoration: none;
+  text-align: center;
+  line-height: 1;
   transition: 0.5s;
 }
 
 .global-project-icon-link:hover {
   color: var(--title-color-portfolio);
+  border-color: var(--title-color-portfolio);
 }
 
 /* Preload
@@ -306,10 +308,6 @@ span {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-}
-
-.projects-section-container__info-header__icon-link {
-  transform: rotate(180deg);
 }
 
 .projects-section-container__info-content {
