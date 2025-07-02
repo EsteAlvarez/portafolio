@@ -47,6 +47,7 @@ span {
 
 .ea-main-page {
   width: 45%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
